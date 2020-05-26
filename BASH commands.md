@@ -22,6 +22,6 @@
 - **tail** - read the end of a file <br>
 - **sudo** - gives special access as root temporary <br>
 - **sudo su** or **#** - permanent access as root <br>
-- **xdg-open** - open a files (command only in Linux) <br>
+- **xdg-open** - open anything on Desktop (command only in Linux) <br>
 - **alias** - to change a command for the current session (Ex: python=python3) <br>
  
