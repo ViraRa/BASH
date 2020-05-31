@@ -24,4 +24,8 @@
 - **sudo su** or **#** - permanent access as root <br>
 - **xdg-open** - open anything on Desktop (command only in Linux) <br>
 - **alias** - to change a command for the current session (Ex: python=python3) <br>
+- **sort** - sort data alphanumerically <br>
+- **sed** - modify file text based on commands <br>
+- **uniq** - get rid of duplicates (must sort first) <br>
+
  
