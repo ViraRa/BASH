@@ -29,6 +29,6 @@
 - **uniq** - get rid of duplicates (must sort first) <br>
 - **chmod** - change file permission. (+x or 775 to make script executable) <br>
 - **./script** - run script on terminal <br>
-
+- **ls -la** - reveals hidden files in directory <br>
 
  
