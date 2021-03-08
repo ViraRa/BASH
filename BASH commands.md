@@ -30,5 +30,8 @@
 - **chmod** - change file permission. (+x or 775 to make script executable) <br>
 - **./script** - run script on terminal <br>
 - **ls -la** - reveals hidden files in directory <br>
+- **qsub [PBS_file]** - submit a PBS file to cluster <br>
+- **qstat -u [username]** - check jobs on cluster <br>
+- **qdel [Job_Id]** - Cancel a job on cluster <br>
 
  
