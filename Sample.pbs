@@ -1,0 +1,24 @@
+#!/bin/bash # location of bash on linux
+#PBS -l nodes=1:ppn=8 # total of 8 cores since cores = nodes * ppn
+#PBS -l walltime=4:00:00
+#PBS -l pmem=2gb # memory shared per process
+#PBS -l feature=rhel7 # Linux distro
+#PBS -A allocation
+
+# Get started
+echo "Jobs started on $hostname at $date"
+
+#load modules
+module load purge
+module load gcc/7.3.1
+module load ncbi-blast/2.6.0
+source activate myenv
+
+# Go to your working directory
+# cd PBS_directory
+
+#Run the job itself
+#python [name].py
+
+#Finish up
+echo "Job Ended at $date"
